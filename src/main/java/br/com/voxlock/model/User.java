@@ -18,6 +18,9 @@ public class User {
 	private Long id;
 	private String name;
 	private String document;
+	private String password;
+	private int accessCode;
+	private String securityPhrase;
 	private String email;
 
 	@ManyToMany
